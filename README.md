@@ -28,10 +28,10 @@ The private preview is only for testing.  Please do NOT use it for your producti
 **Cost to use:**  For this release, MQTT broker functionality in Event Grid is available for no additional charge. You will be charged for routing MQTT messages through Event Grid subscriptions.  Please check the Event Grid pricing [here](https://azure.microsoft.com/en-us/pricing/details/event-grid/).
 
 **Supported Region**
-This private preview is currently supported only in Central US EUAP region.
+This private preview is currently supported only in East US 2 EUAP region.
 
 **Post private preview program**
-When the private preview program ends, or when your tests are completed, you can choose to either cleanup your configuration or retain the configuration in private preview Central US EUAP region.
+When the private preview program ends, or when your tests are completed, you can choose to either cleanup your configuration or retain the configuration in private preview East US 2 EUAP region.
 
 
 ## Capabilities available in this preview
@@ -154,7 +154,7 @@ Currently, Namespace resource type is enabled in following regions only.
 - East US2
 - West US3
 - Canary East US 2 EUAP
-- Canary Central US EUAP
+- Canary East US 2 EUAP
 
 **After creating a Namespace, you will need to explicitly enable MQTT for the Namespace on the Configuration page.**
 

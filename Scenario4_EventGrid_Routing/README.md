@@ -18,7 +18,7 @@ Follow the instructions in the Prerequisites to test this scenarios. Use the fol
 
 - Configure your Event Grid Topic where your messages will be routed.
 ```bash
-# Create the topic in the Central US EUAP Region and set the input schema to CloudEvent Schema v1.0
+# Create the topic in the East US 2 EUAP Region and set the input schema to CloudEvent Schema v1.0
 az eventgrid topic create -g ${rg_name} --name <topic name> -l centraluseuap --input-schema cloudeventschemav1_0
 # Register the Event Grid resource provider
 az provider register --namespace Microsoft.EventGrid

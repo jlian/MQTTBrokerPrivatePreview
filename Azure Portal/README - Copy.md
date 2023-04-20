@@ -2,7 +2,7 @@ The following instructions describes how to use the Azure portal to configure th
 
 # Configure Event Grid for Routing
 1. Create an Event Grid topic according to [these instructions](https://learn.microsoft.com/en-us/azure/event-grid/create-custom-topic), while selecting the following values:
-   - On the Basics page of Create Topic, select the Region as Central US EUAP
+   - On the Basics page of Create Topic, select the Region as East US 2 EUAP
    - On the Advanced tab of Create Topic, select the Cloud Event Schema v1.0 as the topic's Event Schema.
 2. Set EventGrid Data Sender role to your user ID on the created topic
    - In the portal, go to the created Event Grid topic resource. 
@@ -24,7 +24,7 @@ The following instructions describes how to use the Azure portal to configure th
    -  Subscription: Select the enabled subscription for private preview.
    - Resource group: Select a resource group or create a new one. For more information, see [Manage Azure Resource Manager resource groups](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal).
    - Name: Enter a name for your namespace. This name must be globally unique, with a length between 3 and 50 alphanumeric characters. The name can also include the hyphen ('-') character.
-   - Region: Select Central US EUAP
+   - Region: Select East US 2 EUAP
    
 ![Namespace_Creation-Basics.png](https://github.com/Azure/MQTTBrokerPrivatePreview/blob/main/Azure%20Portal/Namespace_Creation-Basics.png)   
 

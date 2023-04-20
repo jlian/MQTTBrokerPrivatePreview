@@ -24,7 +24,7 @@ To install or upgrade, see [Install Azure CLI](https://docs.microsoft.com/en-us/
 To route your messages from your clients to different Azure services or your custom endpoint, an Event Grid topic needs to be created and referenced during namespace creation to forward the messages to that topic for routing; this reference cannot be added/updated afterwards. Use the following commands to create the topic and set the right permissions to take advantage of the routing functionality.
 
 ~~~
-# Create the topic in the Central US EUAP Region and set the input schema to CloudEvent Schema v1.0
+# Create the topic in the East US 2 EUAP Region and set the input schema to CloudEvent Schema v1.0
 az eventgrid topic create -g <resource group> --name <topic name> -l centraluseuap --input-schema cloudeventschemav1_0
 # Register the Event Grid resource provider
 az provider register --namespace Microsoft.EventGrid
